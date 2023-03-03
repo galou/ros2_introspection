@@ -93,7 +93,7 @@ struct StringTreeLeaf{
     return out;
   }
 
-  constexpr static const char SEPARATOR = '/';
+  constexpr static const char SEPARATOR = '.';
   constexpr static const char NUM_PLACEHOLDER = '#';
 };
 

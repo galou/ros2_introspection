@@ -108,7 +108,7 @@ int StringTreeLeaf::toStr(std::string& buffer_str) const
     const size_t S = str->size();
     if( S == 1 && (*str)[0] == NUM_PLACEHOLDER )
     {
-      buffer[offset++] = '.';
+      buffer[offset++] = '#';
       offset += details::printNumber(&buffer[offset],
                                      this->index_array[ array_count++ ] );
     }
